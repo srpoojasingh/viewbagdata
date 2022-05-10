@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewBagD", "ViewBagD.csproj", "{2A630C91-40D9-4A58-8844-A5CD63C16FCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A630C91-40D9-4A58-8844-A5CD63C16FCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A630C91-40D9-4A58-8844-A5CD63C16FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A630C91-40D9-4A58-8844-A5CD63C16FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A630C91-40D9-4A58-8844-A5CD63C16FCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91CDFC85-2099-4D6E-8384-8657F6980A2B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<h2>@ViewBag.Message</h2>
+@{
+    foreach (var item in ViewBag.List)
+    {
+        <li>
+            @item
+        </li>
+    }
+}
+@{
+    foreach (var item in ViewBag.Array)
+    {
+        <li>
+            @item
+        </li>
+    }
+}
+@{
+    var a = ViewBag.Employee;
+}
+<p>
+    @a.EmpId
+</p>
+<p> @a.EmpName</p>
+
+<p>
+    @a.EmpSal
+</p>
+<h2>data comes from ViewBag= @ViewData["CommonMessage"]</h2>
+<h2>data comes from ViewData= @ViewBag.Common</h2>
+
+
